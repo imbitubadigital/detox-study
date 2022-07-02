@@ -10,4 +10,5 @@ export const Container = styled.View`
 
 export const Txt = styled.Text`
   font-size: 20px;
+  margin-bottom: 20px;
 `;
