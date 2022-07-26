@@ -6,7 +6,7 @@ import * as S from './styles';
 
 export function Button({label, loading, ...rest}: StyledButtonProps) {
   return (
-    <S.Container activeOpacity={0.7} {...rest}>
+    <S.Container activeOpacity={0.7} {...rest} testID="button_test">
       {!loading ? (
         <S.Label>{label}</S.Label>
       ) : (
